@@ -1,5 +1,8 @@
 # Bikes!
 
+
+[Link to dashboard](https://public.tableau.com/profile/nick.guild#!/vizhome/Challenge_book/DeliverableThreeStory?publish=yes)
+
 ## Overview of the statistical analysis:  
 
 The purpose of this analysis was to delve into the New York City's Citi Bike program and see how it works, who rides them, and when.  Because we're looking to open up a Citi Bike branch in the city of Des Moines, which as everyone knows, is much like New York City so the observations and conclusions we arrive at will of course have a high degree of external validity.  Given the throughness of the dataset, we had many different variables to explore- parameters like gender, age, duration of trip, the coordinates of where each trip started and ended, among many others helped us find out key results and display those results visually. To do this, we used Tableau, which allowed us to make charts of our results that are dynamic and visually appealing.  We combined the charts we found to be most interesting into a *story* that helps us create a narrative with which to pitch to our investors about our Des Moines project.
