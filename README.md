@@ -1,30 +1,41 @@
-# bikesharing
+# Bikes!
 
 ## Overview of the statistical analysis:  
 
-The purpose of this analysis was to delve into the Citi Bike program in New York City and see how it works, who rides them, and when.  Because we're looking to open up a Citi Bike branch in the city of Des Moines, which as everyone knows, is much like New York City so the observations and conclusions we arrive at will of course have a high degree of external validity.
-
-In order to analyze the Citi Bike data, we used Tableau to create charts that are dynamic and visually appealing. Those charts were then combined into a "story" which allows us to convey the results we found in an informatative and engaging way.
+The purpose of this analysis was to delve into the New York City's Citi Bike program and see how it works, who rides them, and when.  Because we're looking to open up a Citi Bike branch in the city of Des Moines, which as everyone knows, is much like New York City so the observations and conclusions we arrive at will of course have a high degree of external validity.  Given the throughness of the dataset, we had many different variables to explore- parameters like gender, age, duration of trip, the coordinates of where each trip started and ended, among many others that helped us find out key results and display those results visually. To do this, we used Tableau, which allowed us to make charts of our results that are dynamic and visually appealing.  We combined the charts we found to be most interesting into a *story* that helps us create a narrative with which to pitch to our investors about our Des Moines project.
 
 ## Results: 
 
 There are at least seven visualizations for the NYC Citibike analysis (7 pt)
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Bike_usage_by_hour_bins.png)
+- this visualization charts bike usage throughout the day, filtered by bins (groups) we created. Each bin is comprised of a 15 year range. For example, the two age groups that use the Citi Bike system the most, represented by 1965 (purple) and 1980 (orange) in the legend, are made up of the years 1965-1980 and then 1980-1995 respectively.
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Bikes_hour_minute.png)
 
+- This chart shows the breakdown of bikes in use by both hour (top x-axis) and minute (bottom x-axis) throughout the day. Bikes are used the most in the early morning, and then usage rate slowly tails off throughout the day.
+
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Bikes_hour_minute_gender.png)
+
+- This chart further breaks down bike usage throughout the day by filtering the users by their gender.  Males make up the majority of users, but there seems to be no difference in the usage patterns throughout the day when it comes to gender- both men and women (and those who identify as unknown) have the same peak usage times and have the same downward slope of usage rate as the day progresses.
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Heatmap_weekday_gender.png)
 
+-- This heatmap breaks down bike usage by the users gender filtered by weekday.  This chart further illustrates how female and males have similiar usuage patterns- it's just that men are more likley to use the service in the first place.
+
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Usertype_gender_bins.png)
+
+-- This chart helps visualize the breakdown in the two user types: **Customer** (one time user) and **Subscriber** (a user who has an Citi Bike account and likely utlizes the service often.  
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Usertype_gender_weekday.png)
 
+-- This heatmap breaks down bike usage by gender and by user type throughout the week.
+
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/heatmap_weekday_hours.png)
 
-There is a description of the results for each visualization (7 pt)
+-- This heatmap shows bike usage by weekday by hour.  The darker the tile, the more bikes that're in use during that time.
+
+
 ## Summary: 
 
 Citi Bike is clearly a very popular program across the spectrum- both men and women of all ages (New York definetely has some spry 145 year olds biking around!) utilize the bikes in a pretty consistent pattern throughout the day. The compact, heavily urbanized nature of New York City means that the bike users really get alot out of the service- they're able to get from point a -> b much faster than walking, with the added benefit of not using a mode of transportation that emits pollutants, which we think will be a great selling point when we launch in Des Moines.
