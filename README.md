@@ -21,19 +21,21 @@ There are at least seven visualizations for the NYC Citibike analysis (7 pt)
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Heatmap_weekday_gender.png)
 
--- This heatmap breaks down bike usage by the users gender filtered by weekday.  This chart further illustrates how female and males have similiar usuage patterns- it's just that men are more likley to use the service in the first place.
+- This heatmap breaks down bike usage by the users gender filtered by weekday.  This chart further illustrates how female and males have similiar usuage patterns- it's just that men are more likley to use the service in the first place.
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Usertype_gender_bins.png)
 
--- This chart helps visualize the breakdown in the two user types: **Customer** (one time user) and **Subscriber** (a user who has an Citi Bike account and likely utlizes the service often.  
+- This chart helps visualize the breakdown in the two user types: **Customer** (one time user) and **Subscriber** (a user who has an Citi Bike account and likely utlizes the service often.  Overall, most of the users of the service are **Subscribers** which makes sense, if you plan on using the service more than once, you'd want to set up an account that lets you easily and quickly get a bike.  
+
+- It's tough to infer too much from the Customer part of the chart- as a large majority of the users who fall under that description selected "unknown" for gender (almost all the users born between 1965-1980 did this).  This again though, makes sense.  These individuals are maybe tourists who don't plan to use the service again, and skip through the process to begin riding a bike as quickly as possible.
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/Usertype_gender_weekday.png)
 
--- This heatmap breaks down bike usage by gender and by user type throughout the week.
+- This heatmap breaks down bike usage by gender and by user type throughout the week.
 
 ![alt_image](https://github.com/Nickguild1993/bikesharing/blob/main/Tableau_visualizations/heatmap_weekday_hours.png)
 
--- This heatmap shows bike usage by weekday by hour.  The darker the tile, the more bikes that're in use during that time.
+- This heatmap shows bike usage by weekday by hour.  The darker the tile, the more bikes that're in use during that time.
 
 
 ## Summary: 
